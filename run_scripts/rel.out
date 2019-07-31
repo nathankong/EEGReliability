@@ -1,0 +1,556 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>>        51840          40         124
+
+           1       51840
+
+Timepoint 1
+Timepoint 2
+Timepoint 3
+Timepoint 4
+Timepoint 5
+Timepoint 6
+Timepoint 7
+Timepoint 8
+Timepoint 9
+Timepoint 10
+Timepoint 11
+Timepoint 12
+Timepoint 13
+Timepoint 14
+Timepoint 15
+Timepoint 16
+Timepoint 17
+Timepoint 18
+Timepoint 19
+Timepoint 20
+Timepoint 21
+Timepoint 22
+Timepoint 23
+Timepoint 24
+Timepoint 25
+Timepoint 26
+Timepoint 27
+Timepoint 28
+Timepoint 29
+Timepoint 30
+Timepoint 31
+Timepoint 32
+Timepoint 33
+Timepoint 34
+Timepoint 35
+Timepoint 36
+Timepoint 37
+Timepoint 38
+Timepoint 39
+Timepoint 40
+Permutation 1: 2 trials in subset
+Permutation 1: 4 trials in subset
+Permutation 1: 6 trials in subset
+Permutation 1: 8 trials in subset
+Permutation 1: 10 trials in subset
+Permutation 1: 12 trials in subset
+Permutation 1: 14 trials in subset
+Permutation 1: 16 trials in subset
+Permutation 1: 18 trials in subset
+Permutation 1: 20 trials in subset
+Permutation 1: 22 trials in subset
+Permutation 1: 24 trials in subset
+Permutation 1: 26 trials in subset
+Permutation 1: 28 trials in subset
+Permutation 1: 30 trials in subset
+Permutation 1: 32 trials in subset
+Permutation 1: 34 trials in subset
+Permutation 1: 36 trials in subset
+Permutation 1: 38 trials in subset
+Permutation 1: 40 trials in subset
+Permutation 1: 42 trials in subset
+Permutation 1: 44 trials in subset
+Permutation 1: 46 trials in subset
+Permutation 1: 48 trials in subset
+Permutation 1: 50 trials in subset
+Permutation 1: 52 trials in subset
+Permutation 1: 54 trials in subset
+Permutation 1: 56 trials in subset
+Permutation 1: 58 trials in subset
+Permutation 1: 60 trials in subset
+Permutation 1: 62 trials in subset
+Permutation 1: 64 trials in subset
+Permutation 1: 66 trials in subset
+Permutation 1: 68 trials in subset
+Permutation 1: 70 trials in subset
+Permutation 1: 72 trials in subset
+Permutation 1: 74 trials in subset
+Permutation 1: 76 trials in subset
+Permutation 1: 78 trials in subset
+Permutation 1: 80 trials in subset
+Permutation 1: 82 trials in subset
+Permutation 1: 84 trials in subset
+Permutation 1: 86 trials in subset
+Permutation 1: 88 trials in subset
+Permutation 1: 90 trials in subset
+Permutation 1: 92 trials in subset
+Permutation 1: 94 trials in subset
+Permutation 1: 96 trials in subset
+Permutation 1: 98 trials in subset
+Permutation 1: 100 trials in subset
+Permutation 2: 2 trials in subset
+Permutation 2: 4 trials in subset
+Permutation 2: 6 trials in subset
+Permutation 2: 8 trials in subset
+Permutation 2: 10 trials in subset
+Permutation 2: 12 trials in subset
+Permutation 2: 14 trials in subset
+Permutation 2: 16 trials in subset
+Permutation 2: 18 trials in subset
+Permutation 2: 20 trials in subset
+Permutation 2: 22 trials in subset
+Permutation 2: 24 trials in subset
+Permutation 2: 26 trials in subset
+Permutation 2: 28 trials in subset
+Permutation 2: 30 trials in subset
+Permutation 2: 32 trials in subset
+Permutation 2: 34 trials in subset
+Permutation 2: 36 trials in subset
+Permutation 2: 38 trials in subset
+Permutation 2: 40 trials in subset
+Permutation 2: 42 trials in subset
+Permutation 2: 44 trials in subset
+Permutation 2: 46 trials in subset
+Permutation 2: 48 trials in subset
+Permutation 2: 50 trials in subset
+Permutation 2: 52 trials in subset
+Permutation 2: 54 trials in subset
+Permutation 2: 56 trials in subset
+Permutation 2: 58 trials in subset
+Permutation 2: 60 trials in subset
+Permutation 2: 62 trials in subset
+Permutation 2: 64 trials in subset
+Permutation 2: 66 trials in subset
+Permutation 2: 68 trials in subset
+Permutation 2: 70 trials in subset
+Permutation 2: 72 trials in subset
+Permutation 2: 74 trials in subset
+Permutation 2: 76 trials in subset
+Permutation 2: 78 trials in subset
+Permutation 2: 80 trials in subset
+Permutation 2: 82 trials in subset
+Permutation 2: 84 trials in subset
+Permutation 2: 86 trials in subset
+Permutation 2: 88 trials in subset
+Permutation 2: 90 trials in subset
+Permutation 2: 92 trials in subset
+Permutation 2: 94 trials in subset
+Permutation 2: 96 trials in subset
+Permutation 2: 98 trials in subset
+Permutation 2: 100 trials in subset
+Permutation 3: 2 trials in subset
+Permutation 3: 4 trials in subset
+Permutation 3: 6 trials in subset
+Permutation 3: 8 trials in subset
+Permutation 3: 10 trials in subset
+Permutation 3: 12 trials in subset
+Permutation 3: 14 trials in subset
+Permutation 3: 16 trials in subset
+Permutation 3: 18 trials in subset
+Permutation 3: 20 trials in subset
+Permutation 3: 22 trials in subset
+Permutation 3: 24 trials in subset
+Permutation 3: 26 trials in subset
+Permutation 3: 28 trials in subset
+Permutation 3: 30 trials in subset
+Permutation 3: 32 trials in subset
+Permutation 3: 34 trials in subset
+Permutation 3: 36 trials in subset
+Permutation 3: 38 trials in subset
+Permutation 3: 40 trials in subset
+Permutation 3: 42 trials in subset
+Permutation 3: 44 trials in subset
+Permutation 3: 46 trials in subset
+Permutation 3: 48 trials in subset
+Permutation 3: 50 trials in subset
+Permutation 3: 52 trials in subset
+Permutation 3: 54 trials in subset
+Permutation 3: 56 trials in subset
+Permutation 3: 58 trials in subset
+Permutation 3: 60 trials in subset
+Permutation 3: 62 trials in subset
+Permutation 3: 64 trials in subset
+Permutation 3: 66 trials in subset
+Permutation 3: 68 trials in subset
+Permutation 3: 70 trials in subset
+Permutation 3: 72 trials in subset
+Permutation 3: 74 trials in subset
+Permutation 3: 76 trials in subset
+Permutation 3: 78 trials in subset
+Permutation 3: 80 trials in subset
+Permutation 3: 82 trials in subset
+Permutation 3: 84 trials in subset
+Permutation 3: 86 trials in subset
+Permutation 3: 88 trials in subset
+Permutation 3: 90 trials in subset
+Permutation 3: 92 trials in subset
+Permutation 3: 94 trials in subset
+Permutation 3: 96 trials in subset
+Permutation 3: 98 trials in subset
+Permutation 3: 100 trials in subset
+Permutation 4: 2 trials in subset
+Permutation 4: 4 trials in subset
+Permutation 4: 6 trials in subset
+Permutation 4: 8 trials in subset
+Permutation 4: 10 trials in subset
+Permutation 4: 12 trials in subset
+Permutation 4: 14 trials in subset
+Permutation 4: 16 trials in subset
+Permutation 4: 18 trials in subset
+Permutation 4: 20 trials in subset
+Permutation 4: 22 trials in subset
+Permutation 4: 24 trials in subset
+Permutation 4: 26 trials in subset
+Permutation 4: 28 trials in subset
+Permutation 4: 30 trials in subset
+Permutation 4: 32 trials in subset
+Permutation 4: 34 trials in subset
+Permutation 4: 36 trials in subset
+Permutation 4: 38 trials in subset
+Permutation 4: 40 trials in subset
+Permutation 4: 42 trials in subset
+Permutation 4: 44 trials in subset
+Permutation 4: 46 trials in subset
+Permutation 4: 48 trials in subset
+Permutation 4: 50 trials in subset
+Permutation 4: 52 trials in subset
+Permutation 4: 54 trials in subset
+Permutation 4: 56 trials in subset
+Permutation 4: 58 trials in subset
+Permutation 4: 60 trials in subset
+Permutation 4: 62 trials in subset
+Permutation 4: 64 trials in subset
+Permutation 4: 66 trials in subset
+Permutation 4: 68 trials in subset
+Permutation 4: 70 trials in subset
+Permutation 4: 72 trials in subset
+Permutation 4: 74 trials in subset
+Permutation 4: 76 trials in subset
+Permutation 4: 78 trials in subset
+Permutation 4: 80 trials in subset
+Permutation 4: 82 trials in subset
+Permutation 4: 84 trials in subset
+Permutation 4: 86 trials in subset
+Permutation 4: 88 trials in subset
+Permutation 4: 90 trials in subset
+Permutation 4: 92 trials in subset
+Permutation 4: 94 trials in subset
+Permutation 4: 96 trials in subset
+Permutation 4: 98 trials in subset
+Permutation 4: 100 trials in subset
+Permutation 5: 2 trials in subset
+Permutation 5: 4 trials in subset
+Permutation 5: 6 trials in subset
+Permutation 5: 8 trials in subset
+Permutation 5: 10 trials in subset
+Permutation 5: 12 trials in subset
+Permutation 5: 14 trials in subset
+Permutation 5: 16 trials in subset
+Permutation 5: 18 trials in subset
+Permutation 5: 20 trials in subset
+Permutation 5: 22 trials in subset
+Permutation 5: 24 trials in subset
+Permutation 5: 26 trials in subset
+Permutation 5: 28 trials in subset
+Permutation 5: 30 trials in subset
+Permutation 5: 32 trials in subset
+Permutation 5: 34 trials in subset
+Permutation 5: 36 trials in subset
+Permutation 5: 38 trials in subset
+Permutation 5: 40 trials in subset
+Permutation 5: 42 trials in subset
+Permutation 5: 44 trials in subset
+Permutation 5: 46 trials in subset
+Permutation 5: 48 trials in subset
+Permutation 5: 50 trials in subset
+Permutation 5: 52 trials in subset
+Permutation 5: 54 trials in subset
+Permutation 5: 56 trials in subset
+Permutation 5: 58 trials in subset
+Permutation 5: 60 trials in subset
+Permutation 5: 62 trials in subset
+Permutation 5: 64 trials in subset
+Permutation 5: 66 trials in subset
+Permutation 5: 68 trials in subset
+Permutation 5: 70 trials in subset
+Permutation 5: 72 trials in subset
+Permutation 5: 74 trials in subset
+Permutation 5: 76 trials in subset
+Permutation 5: 78 trials in subset
+Permutation 5: 80 trials in subset
+Permutation 5: 82 trials in subset
+Permutation 5: 84 trials in subset
+Permutation 5: 86 trials in subset
+Permutation 5: 88 trials in subset
+Permutation 5: 90 trials in subset
+Permutation 5: 92 trials in subset
+Permutation 5: 94 trials in subset
+Permutation 5: 96 trials in subset
+Permutation 5: 98 trials in subset
+Permutation 5: 100 trials in subset
+Permutation 6: 2 trials in subset
+Permutation 6: 4 trials in subset
+Permutation 6: 6 trials in subset
+Permutation 6: 8 trials in subset
+Permutation 6: 10 trials in subset
+Permutation 6: 12 trials in subset
+Permutation 6: 14 trials in subset
+Permutation 6: 16 trials in subset
+Permutation 6: 18 trials in subset
+Permutation 6: 20 trials in subset
+Permutation 6: 22 trials in subset
+Permutation 6: 24 trials in subset
+Permutation 6: 26 trials in subset
+Permutation 6: 28 trials in subset
+Permutation 6: 30 trials in subset
+Permutation 6: 32 trials in subset
+Permutation 6: 34 trials in subset
+Permutation 6: 36 trials in subset
+Permutation 6: 38 trials in subset
+Permutation 6: 40 trials in subset
+Permutation 6: 42 trials in subset
+Permutation 6: 44 trials in subset
+Permutation 6: 46 trials in subset
+Permutation 6: 48 trials in subset
+Permutation 6: 50 trials in subset
+Permutation 6: 52 trials in subset
+Permutation 6: 54 trials in subset
+Permutation 6: 56 trials in subset
+Permutation 6: 58 trials in subset
+Permutation 6: 60 trials in subset
+Permutation 6: 62 trials in subset
+Permutation 6: 64 trials in subset
+Permutation 6: 66 trials in subset
+Permutation 6: 68 trials in subset
+Permutation 6: 70 trials in subset
+Permutation 6: 72 trials in subset
+Permutation 6: 74 trials in subset
+Permutation 6: 76 trials in subset
+Permutation 6: 78 trials in subset
+Permutation 6: 80 trials in subset
+Permutation 6: 82 trials in subset
+Permutation 6: 84 trials in subset
+Permutation 6: 86 trials in subset
+Permutation 6: 88 trials in subset
+Permutation 6: 90 trials in subset
+Permutation 6: 92 trials in subset
+Permutation 6: 94 trials in subset
+Permutation 6: 96 trials in subset
+Permutation 6: 98 trials in subset
+Permutation 6: 100 trials in subset
+Permutation 7: 2 trials in subset
+Permutation 7: 4 trials in subset
+Permutation 7: 6 trials in subset
+Permutation 7: 8 trials in subset
+Permutation 7: 10 trials in subset
+Permutation 7: 12 trials in subset
+Permutation 7: 14 trials in subset
+Permutation 7: 16 trials in subset
+Permutation 7: 18 trials in subset
+Permutation 7: 20 trials in subset
+Permutation 7: 22 trials in subset
+Permutation 7: 24 trials in subset
+Permutation 7: 26 trials in subset
+Permutation 7: 28 trials in subset
+Permutation 7: 30 trials in subset
+Permutation 7: 32 trials in subset
+Permutation 7: 34 trials in subset
+Permutation 7: 36 trials in subset
+Permutation 7: 38 trials in subset
+Permutation 7: 40 trials in subset
+Permutation 7: 42 trials in subset
+Permutation 7: 44 trials in subset
+Permutation 7: 46 trials in subset
+Permutation 7: 48 trials in subset
+Permutation 7: 50 trials in subset
+Permutation 7: 52 trials in subset
+Permutation 7: 54 trials in subset
+Permutation 7: 56 trials in subset
+Permutation 7: 58 trials in subset
+Permutation 7: 60 trials in subset
+Permutation 7: 62 trials in subset
+Permutation 7: 64 trials in subset
+Permutation 7: 66 trials in subset
+Permutation 7: 68 trials in subset
+Permutation 7: 70 trials in subset
+Permutation 7: 72 trials in subset
+Permutation 7: 74 trials in subset
+Permutation 7: 76 trials in subset
+Permutation 7: 78 trials in subset
+Permutation 7: 80 trials in subset
+Permutation 7: 82 trials in subset
+Permutation 7: 84 trials in subset
+Permutation 7: 86 trials in subset
+Permutation 7: 88 trials in subset
+Permutation 7: 90 trials in subset
+Permutation 7: 92 trials in subset
+Permutation 7: 94 trials in subset
+Permutation 7: 96 trials in subset
+Permutation 7: 98 trials in subset
+Permutation 7: 100 trials in subset
+Permutation 8: 2 trials in subset
+Permutation 8: 4 trials in subset
+Permutation 8: 6 trials in subset
+Permutation 8: 8 trials in subset
+Permutation 8: 10 trials in subset
+Permutation 8: 12 trials in subset
+Permutation 8: 14 trials in subset
+Permutation 8: 16 trials in subset
+Permutation 8: 18 trials in subset
+Permutation 8: 20 trials in subset
+Permutation 8: 22 trials in subset
+Permutation 8: 24 trials in subset
+Permutation 8: 26 trials in subset
+Permutation 8: 28 trials in subset
+Permutation 8: 30 trials in subset
+Permutation 8: 32 trials in subset
+Permutation 8: 34 trials in subset
+Permutation 8: 36 trials in subset
+Permutation 8: 38 trials in subset
+Permutation 8: 40 trials in subset
+Permutation 8: 42 trials in subset
+Permutation 8: 44 trials in subset
+Permutation 8: 46 trials in subset
+Permutation 8: 48 trials in subset
+Permutation 8: 50 trials in subset
+Permutation 8: 52 trials in subset
+Permutation 8: 54 trials in subset
+Permutation 8: 56 trials in subset
+Permutation 8: 58 trials in subset
+Permutation 8: 60 trials in subset
+Permutation 8: 62 trials in subset
+Permutation 8: 64 trials in subset
+Permutation 8: 66 trials in subset
+Permutation 8: 68 trials in subset
+Permutation 8: 70 trials in subset
+Permutation 8: 72 trials in subset
+Permutation 8: 74 trials in subset
+Permutation 8: 76 trials in subset
+Permutation 8: 78 trials in subset
+Permutation 8: 80 trials in subset
+Permutation 8: 82 trials in subset
+Permutation 8: 84 trials in subset
+Permutation 8: 86 trials in subset
+Permutation 8: 88 trials in subset
+Permutation 8: 90 trials in subset
+Permutation 8: 92 trials in subset
+Permutation 8: 94 trials in subset
+Permutation 8: 96 trials in subset
+Permutation 8: 98 trials in subset
+Permutation 8: 100 trials in subset
+Permutation 9: 2 trials in subset
+Permutation 9: 4 trials in subset
+Permutation 9: 6 trials in subset
+Permutation 9: 8 trials in subset
+Permutation 9: 10 trials in subset
+Permutation 9: 12 trials in subset
+Permutation 9: 14 trials in subset
+Permutation 9: 16 trials in subset
+Permutation 9: 18 trials in subset
+Permutation 9: 20 trials in subset
+Permutation 9: 22 trials in subset
+Permutation 9: 24 trials in subset
+Permutation 9: 26 trials in subset
+Permutation 9: 28 trials in subset
+Permutation 9: 30 trials in subset
+Permutation 9: 32 trials in subset
+Permutation 9: 34 trials in subset
+Permutation 9: 36 trials in subset
+Permutation 9: 38 trials in subset
+Permutation 9: 40 trials in subset
+Permutation 9: 42 trials in subset
+Permutation 9: 44 trials in subset
+Permutation 9: 46 trials in subset
+Permutation 9: 48 trials in subset
+Permutation 9: 50 trials in subset
+Permutation 9: 52 trials in subset
+Permutation 9: 54 trials in subset
+Permutation 9: 56 trials in subset
+Permutation 9: 58 trials in subset
+Permutation 9: 60 trials in subset
+Permutation 9: 62 trials in subset
+Permutation 9: 64 trials in subset
+Permutation 9: 66 trials in subset
+Permutation 9: 68 trials in subset
+Permutation 9: 70 trials in subset
+Permutation 9: 72 trials in subset
+Permutation 9: 74 trials in subset
+Permutation 9: 76 trials in subset
+Permutation 9: 78 trials in subset
+Permutation 9: 80 trials in subset
+Permutation 9: 82 trials in subset
+Permutation 9: 84 trials in subset
+Permutation 9: 86 trials in subset
+Permutation 9: 88 trials in subset
+Permutation 9: 90 trials in subset
+Permutation 9: 92 trials in subset
+Permutation 9: 94 trials in subset
+Permutation 9: 96 trials in subset
+Permutation 9: 98 trials in subset
+Permutation 9: 100 trials in subset
+Permutation 10: 2 trials in subset
+Permutation 10: 4 trials in subset
+Permutation 10: 6 trials in subset
+Permutation 10: 8 trials in subset
+Permutation 10: 10 trials in subset
+Permutation 10: 12 trials in subset
+Permutation 10: 14 trials in subset
+Permutation 10: 16 trials in subset
+Permutation 10: 18 trials in subset
+Permutation 10: 20 trials in subset
+Permutation 10: 22 trials in subset
+Permutation 10: 24 trials in subset
+Permutation 10: 26 trials in subset
+Permutation 10: 28 trials in subset
+Permutation 10: 30 trials in subset
+Permutation 10: 32 trials in subset
+Permutation 10: 34 trials in subset
+Permutation 10: 36 trials in subset
+Permutation 10: 38 trials in subset
+Permutation 10: 40 trials in subset
+Permutation 10: 42 trials in subset
+Permutation 10: 44 trials in subset
+Permutation 10: 46 trials in subset
+Permutation 10: 48 trials in subset
+Permutation 10: 50 trials in subset
+Permutation 10: 52 trials in subset
+Permutation 10: 54 trials in subset
+Permutation 10: 56 trials in subset
+Permutation 10: 58 trials in subset
+Permutation 10: 60 trials in subset
+Permutation 10: 62 trials in subset
+Permutation 10: 64 trials in subset
+Permutation 10: 66 trials in subset
+Permutation 10: 68 trials in subset
+Permutation 10: 70 trials in subset
+Permutation 10: 72 trials in subset
+Permutation 10: 74 trials in subset
+Permutation 10: 76 trials in subset
+Permutation 10: 78 trials in subset
+Permutation 10: 80 trials in subset
+Permutation 10: 82 trials in subset
+Permutation 10: 84 trials in subset
+Permutation 10: 86 trials in subset
+Permutation 10: 88 trials in subset
+Permutation 10: 90 trials in subset
+Permutation 10: 92 trials in subset
+Permutation 10: 94 trials in subset
+Permutation 10: 96 trials in subset
+Permutation 10: 98 trials in subset
+Permutation 10: 100 trials in subset
+>> 
