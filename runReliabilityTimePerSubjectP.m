@@ -24,11 +24,11 @@ for i=1:num_subjects
     disp(size(eeg_data));
     disp(size(labels));
 
-    eeg_data_subj = permute(eeg_data_subj, [3,1,2]);
+    eeg_data_subj = permute(eeg_data_subj, [3,2,1]);
     
     rel_time = computeSpaceTimeReliability(eeg_data_subj, labels, 10);
     all_subj(i,:,:,:) = rel_time;
 end
 
-save('results/all_subj_p_31Jul19.mat', 'all_subj');
+save('results/all_subj_p_08Aug19.mat', 'all_subj');
 

@@ -20,11 +20,8 @@ labels = repmat(1:72, [1,num_subjects*num_trials]);
 disp(size(eeg_data));
 disp(size(labels));
 
-eeg_data = permute(eeg_data, [3,1,2]);
-
-%rel_time = computeSpaceTimeReliability(eeg_data, labels, 10);
-%save('results/rel_time_p_31Jul19.mat', 'rel_time');
+eeg_data = permute(eeg_data, [3,2,1]);
 
 rel_trials = computeSampleSizeReliability(eeg_data, labels, 16, 1:100, 10, 100);
-save('results/rel_trials_p_16_31Jul19.mat', 'rel_trials');
+save('results/rel_trials_p_16_08Aug19.mat', 'rel_trials');
 
