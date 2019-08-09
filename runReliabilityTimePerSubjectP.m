@@ -14,7 +14,7 @@ num_trials = size(eeg_data,3);
 num_timepoints = size(eeg_data,4);
 num_components = size(eeg_data,5);
 
-all_subj = zeros(num_subjects, num_timepoints, 10, num_components);
+all_subj = zeros(num_subjects, num_components, num_timepoints, 10);
 for i=1:num_subjects
     fprintf('Subject %d\n', i);
     eeg_data_subj = squeeze(eeg_data(:,i,:,:,:));
@@ -26,7 +26,7 @@ for i=1:num_subjects
 
     eeg_data_subj = permute(eeg_data_subj, [3,2,1]);
     
-    rel_time = computeSpaceTimeReliability(eeg_data_subj, labels, 10);
+    rel_time = computeSpaceTimeReliability(eeg_data_subj, labels, 10, 0);
     all_subj(i,:,:,:) = rel_time;
 end
 

@@ -16,11 +16,15 @@ function [reliabilities] = computeSpaceTimeReliability(eeg_data, labels, num_per
 %   labels - labels vector. The length of labels should be equal to nTrials.
 %   num_permutations (optional) - how many permutations to split the trials for split half
 %                                 reliability. If not entered, this defaults to 10.
+%   rand_seed (optional) - random seed for reproducibility. If not entered,
+%                          this defaults to 'shuffle'.
 %
 % Output Args:
 %   reliabilities - reliability for each electrode across time. The dimensions of
-%                   this matrix are: nTime x nPermutations x nSpace. You would typically
-%                   average across the permutations dimension.
+%                   this matrix are: nSpace x nTime x nPermutations if a 3D matrix was
+%                   provided.  If a 2D matrix was provided, the dimensions of the results
+%                   are: nTime x nSpace. You would typically average across the permutations 
+%                   dimension.
 
 % If 3D matrix entered, dimensions are: space x time x trial
 % We will permute so that it becomes space x trial x time
@@ -62,7 +66,7 @@ end
 % This means a 3D data matrix was provided. Permute the results matrix 
 % so that the dimensions are: space x time x permutations
 if num_components > 1
-    reliabilities = permute(reliabilites, [3,1,2]);
+    reliabilities = permute(reliabilities, [3,1,2]);
 end
 
 end

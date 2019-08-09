@@ -18,8 +18,7 @@ function [rels] = computeReliability(data, labels, num_permutations)
 %   rels - reliability for each electrode at a particular time. The dimensions of
 %          the results matrix is: num_permutations x num_components
 
-    assert(size(data, 2) == length(labels), 'Mismatch been the number of ...
-                trials in the data and the length of the labels vector.');
+    assert(size(data, 2) == length(labels), 'Mismatch been the number of trials in the data and the length of the labels vector.');
 
     num_components = size(data, 1);
     rels = zeros(num_components, num_permutations);

@@ -29,6 +29,8 @@ function [reliabilities] = computeSampleSizeReliability(eeg_data, labels, timepo
 %                                       This is useful if we wanted to compute the variance
 %                                       of the reliability across random draws of the trials.
 %                                       If not entered, this defaults to 10.
+%   rand_seed (optional) - random seed for reproducibility. If not entered,
+%                          this defaults to 'shuffle'.
 %
 % Output Args:
 %   reliabilities - If input matrix was 3D, dimensions are: num_trial_permutations x 
@@ -51,8 +53,7 @@ if length(size(eeg_data)) == 2
     eeg_data = reshape(eeg_data, [1,dim1,dim2]);
 end
 
-assert(size(eeg_data, 2) == length(labels), 'Length of labels vector does not ...
-                    match number of trials in the data.');
+assert(size(eeg_data, 2) == length(labels), 'Length of labels vector does not match number of trials in the data.');
 
 if nargin < 4
     num_trials_per_half = 1;
@@ -66,7 +67,7 @@ if nargin < 6 || isempty(num_trial_permutations)
 end
 
 % Set random seed
-if nargin < 7
+if nargin < 7 || isempty(rand_seed)
     rand_seed = 'shuffle';
 end
 rng(rand_seed);
@@ -107,12 +108,10 @@ function [new_data, new_labels] = acquire_data(eeg_data, labels, num_trials_to_u
 % Acquires num_trials_to_use trials for each stimulus
 % eeg_data: (num_components, num_trials)
 % Returns (num_components, num_trials_to_use*num_images) and label vector associated with it
-assert(length(labels) == size(eeg_data, 2), 'Length of labels vector does not ...
-                match number of trials in the data.');
+assert(length(labels) == size(eeg_data, 2), 'Length of labels vector does not match number of trials in the data.');
 
 unique_labels = unique(labels);
-assert(length(unique_labels) == num_images, 'Mismatch in number of unique images ...
-                number of unique labels.')
+assert(length(unique_labels) == num_images, 'Mismatch in number of unique images number of unique labels.')
 
 num_components = size(eeg_data, 1);
 new_data = zeros(num_components, num_trials_to_use*num_images);

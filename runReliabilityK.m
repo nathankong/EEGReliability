@@ -22,6 +22,6 @@ disp(size(labels));
 
 eeg_data = permute(eeg_data, [3,2,1]);
 
-rel_trials = computeSampleSizeReliability(eeg_data, labels, 16, 1:100, 10, 100);
+rel_trials = computeSampleSizeReliability(eeg_data, labels, 16, 1:100, 10, 100, 0);
 save('results/rel_trials_k_16_08Aug19.mat', 'rel_trials');
 
